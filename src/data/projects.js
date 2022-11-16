@@ -17,7 +17,14 @@ const PROJECTS = [
   {
     id: 2,
     title: 'Weather App',
-    description: ['Bootstrap', 'HTML', 'CSS', 'Javascript', 'React'],
+    description: [
+      'Bootstrap',
+      'HTML',
+      'CSS',
+      'Javascript',
+      'React',
+      'REST API',
+    ],
     link: 'https://admirable-quokka-13bdbf.netlify.app/',
     image: weather,
     github: 'https://github.com/WillShaner/Weather-App',
@@ -33,7 +40,7 @@ const PROJECTS = [
   {
     id: 4,
     title: 'To Do List',
-    description: ['Bootstrap', 'HTML', 'CSS', 'Javascript', 'RE'],
+    description: ['Bootstrap', 'HTML', 'CSS', 'Javascript', 'REST API'],
     link: 'https://fantastic-tapioca-49393c.netlify.app/',
     image: toDoList,
     github: 'https://github.com/WillShaner/To-Do-List',
@@ -41,7 +48,7 @@ const PROJECTS = [
   {
     id: 5,
     title: 'Airbnb News Clone',
-    description: ['Bootstrap', 'HTML', 'CSS', 'Javascript', 'React'],
+    description: ['Bootstrap', 'HTML', 'CSS'],
     link: 'https://vocal-crepe-1c8ecc.netlify.app',
     image: project2,
     github: 'https://github.com/WillShaner/Airbnb_news_clone',
@@ -49,7 +56,7 @@ const PROJECTS = [
   {
     id: 6,
     title: '10 Second Math Game',
-    description: ['Bootstrap', 'HTML', 'CSS', 'Javascript', 'React'],
+    description: ['Bootstrap', 'HTML', 'CSS', 'Javascript'],
     link: 'https://frolicking-kelpie-d4579c.netlify.app',
     image: project1,
     github: 'https://github.com/WillShaner/10-Second-Math-Game',
