@@ -1,0 +1,52 @@
+.hero-wrapper {
+  height: 100vh;
+  perspective: 10px;
+}
+.hero-title {
+  font-size: 7rem;
+  color: white;
+  text-shadow: 0 0 5px black;
+  border: 3px dotted white;
+  text-align: center;
+  max-width: 80%;
+  z-index: 100;
+}
+.hero-sub {
+  color: white;
+  font-size: 2rem;
+  text-shadow: 0 0 5px black;
+}
+.hero-p {
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  color: black;
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  z-index: 1000000;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.hero-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+.hero-background {
+  transform: translateZ(-10px) scale(2);
+  z-index: -1;
+}
+.hero-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
