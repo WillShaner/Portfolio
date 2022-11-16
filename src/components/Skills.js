@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import skills from '../data/skills';
 import SkillCard from './SkillCard';
 
-const Skills = () => {
+function Skills() {
   return (
     <Row className="justify-content-center align-items-center" id="skills">
       <h1 className="text-center mt-5">Skills</h1>
@@ -14,6 +14,6 @@ const Skills = () => {
       </div>
     </Row>
   );
-};
+}
 
 export default Skills;

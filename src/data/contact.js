@@ -7,7 +7,7 @@ import {
   BsFacebook,
 } from 'react-icons/bs';
 
-export const contact = [
+const contact = [
   {
     id: 1,
     image: <BsLinkedin />,
@@ -23,14 +23,12 @@ export const contact = [
     image: <BsInstagram />,
     link: 'https://www.instagram.com/will.shaner/?hl=en',
   },
-  {
-    id: 4,
-    image: <BsGithub />,
-    link: 'https://github.com/WillShaner',
-  },
+  { id: 4, image: <BsGithub />, link: 'https://github.com/WillShaner' },
   {
     id: 5,
     image: <BsFacebook />,
     link: 'https://www.facebook.com/william.shaner.750',
   },
 ];
+
+export default contact;

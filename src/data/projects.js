@@ -1,10 +1,10 @@
 import project1 from '../assets/mathGame.png';
 import project2 from '../assets/newsClone.png';
-import project3 from '../assets/BlackJack.png';
 import bikeShop from '../assets/bike-shop.png';
 import toDoList from '../assets/toDoList.png';
 import appleClone from '../assets/appleClone.png';
 import weather from '../assets/weatherApp.png';
+
 const PROJECTS = [
   {
     id: 1,

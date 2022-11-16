@@ -1,16 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useInView } from 'react-intersection-observer';
-import Row from 'react-bootstrap/Row';
 
-const Project = (props) => {
+function Project(props) {
   const { project } = props;
-  const { title, description, link, image, github } = project;
-  const { ref, inView } = useInView({
-    /* Optional options */
-    threshold: 0.3,
-  });
+  const {
+    title, description, link, image, github,
+  } = project;
+  const { ref, inView } = useInView({ threshold: 0.3 });
   return (
     <Card
       ref={ref}
@@ -40,6 +38,6 @@ const Project = (props) => {
       </Card.Body>
     </Card>
   );
-};
+}
 
 export default Project;

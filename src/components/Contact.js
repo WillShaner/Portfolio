@@ -1,12 +1,12 @@
 import React, { useRef } from 'react';
 import Row from 'react-bootstrap/Row';
-import { contact } from '../data/contact';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import emailjs from 'emailjs-com';
+import contact from '../data/contact';
 
-const Contact = () => {
+function Contact() {
   const contactStyle = {
     fontSize: 40,
     color: 'black',
@@ -22,21 +22,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        'service_oh25hf8',
-        'template_lffgyg1',
-        form.current,
-        'hXaGzcxEQ0_z0xZPP'
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(
+      'service_oh25hf8',
+      'template_lffgyg1',
+      form.current,
+      'hXaGzcxEQ0_z0xZPP',
+    );
   };
 
   return (
@@ -100,6 +91,6 @@ const Contact = () => {
       </Col>
     </Row>
   );
-};
+}
 
 export default Contact;

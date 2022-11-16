@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-const Header = () => {
+function Header() {
   return (
     <Navbar expand="md">
       <Container>
@@ -25,6 +25,6 @@ const Header = () => {
       </Container>
     </Navbar>
   );
-};
+}
 
 export default Header;

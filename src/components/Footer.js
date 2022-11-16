@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Footer = () => {
+function Footer() {
   const footerBreak = {
     width: '100%',
     backgroundColor: 'grey',
@@ -9,10 +9,10 @@ const Footer = () => {
   };
   return (
     <>
-      <div style={footerBreak}></div>
+      <div style={footerBreak} />
       <p className="m-3">William Shaner Portfolio 2022</p>
     </>
   );
-};
+}
 
 export default Footer;
