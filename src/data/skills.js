@@ -6,8 +6,9 @@ import {
   DiBootstrap,
   DiReact,
   DiGit,
+  DiSass,
 } from 'react-icons/di';
-import { SiGreensock, SiFigma } from 'react-icons/si';
+import { SiGreensock, SiFigma, SiGithub } from 'react-icons/si';
 
 const skills = [
   {
@@ -58,6 +59,19 @@ const skills = [
     title: 'Figma',
     color: 'rgba(162,89,255,1)',
   },
+  {
+    id: 9,
+    image: <DiSass />,
+    title: 'SASS',
+    color: 'pink',
+  },
+  {
+    id: 10,
+    image: <SiGithub />,
+    title: 'Github',
+    color: 'black',
+  },
+
 ];
 
 export default skills;

@@ -1,0 +1,26 @@
+.project {
+  max-width: 1100px;
+}
+.project a {
+  color: white;
+}
+.project img {
+  height: clamp(400px, 60vh, 600px);
+  width: 80vw;
+  max-width: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  margin: 0 auto;
+}
+.project p {
+  max-width: 600px;
+}
+.project h2 {
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+.project ul {
+  list-style: none;
+}/*# sourceMappingURL=Project.css.map */

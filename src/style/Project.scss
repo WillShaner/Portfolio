@@ -1,0 +1,38 @@
+$charcoal: #264653ff;
+$persian-green: #2a9d8fff;
+$maize-crayola: #e9c46aff;
+$sandy-brown: #f4a261ff;
+$burnt-sienna: #e76f51ff;
+
+
+.project {
+  max-width: 1100px;
+
+  a {
+    color: white;
+
+  }
+
+  img {
+    height: clamp(400px, 60vh, 600px);
+    width: 80vw;
+    max-width: 700px;
+    object-fit: cover;
+    object-position: top;
+    margin: 0 auto;
+  }
+
+  p {
+    max-width: 600px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    margin: 1em 0;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+}

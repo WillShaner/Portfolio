@@ -1,13 +1,13 @@
 import React from 'react';
 import Background from '../assets/hero.jpg';
 import '../style/Wrapper.css';
-import MyWork from './MyWork';
-import Skills from './Skills';
-import Contact from './Contact';
-import Header from './Header';
-import Footer from './Footer';
+import MyWork from '../components/MyWork';
+import Skills from '../components/Skills';
+import Contact from '../components/Contact';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
-function Wrapper() {
+function HomePage({ setCounter }) {
   return (
     <div className="wrapper">
       <header>
@@ -17,7 +17,7 @@ function Wrapper() {
       </header>
       <div>
         <Header />
-        <MyWork />
+        <MyWork setCounter={setCounter} />
         <Skills />
         <Contact />
         <Footer />
@@ -26,4 +26,4 @@ function Wrapper() {
   );
 }
 
-export default Wrapper;
+export default HomePage;

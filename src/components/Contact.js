@@ -5,12 +5,9 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import emailjs from 'emailjs-com';
 import contact from '../data/contact';
+import '../style/Contact.css';
 
 function Contact() {
-  const contactStyle = {
-    fontSize: 40,
-    color: 'black',
-  };
   const rowStyle = {
     height: '100vh',
   };
@@ -84,7 +81,7 @@ function Contact() {
         className="d-flex justify-content-around my-work-container flex-wrap"
       >
         {contact.map((item) => (
-          <a style={contactStyle} href={item.link} key={item.id}>
+          <a className="contact-img" href={item.link} key={item.id}>
             {item.image}
           </a>
         ))}

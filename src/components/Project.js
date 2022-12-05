@@ -1,16 +1,19 @@
+/* eslint-disable react/no-array-index-key */
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useInView } from 'react-intersection-observer';
+import { Link } from 'react-router-dom';
 
 function Project(props) {
-  const { project } = props;
+  const { project, onclick } = props;
   const {
-    title, description, link, image, github,
+    title, skills, link, image, github, id,
   } = project;
   const { ref, inView } = useInView({ threshold: 0.3 });
   return (
     <Card
+      key={id}
       ref={ref}
       style={{ width: '18rem' }}
       className={`project-card m-3 fade-in ${inView ? 'appear' : ''}`}
@@ -19,8 +22,8 @@ function Project(props) {
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
-          {description.map((x) => (
-            <li>{x}</li>
+          {skills.map((x, index) => (
+            <li key={index}>{x}</li>
           ))}
         </Card.Text>
         <div className="d-flex justify-content-around">
@@ -35,6 +38,7 @@ function Project(props) {
             </a>
           </Button>
         </div>
+        <Link to="/projects"><Button variant="success" className="w-100 mt-1" onClick={onclick}>Full page</Button></Link>
       </Card.Body>
     </Card>
   );

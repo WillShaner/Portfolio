@@ -1,5 +1,6 @@
 .card-bg {
   background-color: rgb(242, 243, 245);
   border-radius: 50%;
-  padding: 10% 30%;
+  object-fit: contain;
+  padding: 10% 20%;
 }

@@ -1,0 +1,9 @@
+.contact-img {
+  color: black;
+  font-size: clamp(2.5em, 3vw, 4em);
+  transition: all 250ms ease-in-out;
+}
+.contact-img:hover {
+  transform: scale(1.08);
+  color: navy;
+}
