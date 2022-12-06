@@ -1,11 +1,11 @@
 import React from 'react';
-import Background from '../assets/hero.jpg';
+import Background from '../assets/green-bg.webp';
 import '../style/Wrapper.css';
 import MyWork from '../components/MyWork';
 import Skills from '../components/Skills';
-import Contact from '../components/Contact';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import About from '../components/About';
 
 function HomePage({ setCounter }) {
   return (
@@ -17,9 +17,9 @@ function HomePage({ setCounter }) {
       </header>
       <div>
         <Header />
-        <MyWork setCounter={setCounter} />
+        <About />
+        <MyWork setCounter={setCounter} limit="3" button />
         <Skills />
-        <Contact />
         <Footer />
       </div>
     </div>

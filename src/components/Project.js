@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
+import { SiGithub } from 'react-icons/si';
 
 function Project(props) {
   const { project, onclick } = props;
@@ -11,6 +12,9 @@ function Project(props) {
     title, skills, link, image, github, id,
   } = project;
   const { ref, inView } = useInView({ threshold: 0.3 });
+  const icon = {
+    fontSize: 20,
+  };
   return (
     <Card
       key={id}
@@ -21,24 +25,27 @@ function Project(props) {
       <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
-        <Card.Text>
+        <Card.Text className="d-flex flex-column skills-list">
           {skills.map((x, index) => (
             <li key={index}>{x}</li>
           ))}
         </Card.Text>
-        <div className="d-flex justify-content-around">
-          <Button variant="primary">
-            <a className="text-white" href={link}>
-              View Site
-            </a>
-          </Button>
-          <Button variant="danger">
-            <a className="text-white" href={github}>
-              Github
-            </a>
-          </Button>
+        <div className="d-flex flex-column justify-content-end">
+          <div className="d-flex justify-content-around">
+            <Button variant="secondary">
+              <a className="text-white" href={link}>
+                Live Site
+              </a>
+            </Button>
+            <Button variant="dark" style={icon}>
+              <a className="text-white" href={github}>
+                <SiGithub />
+              </a>
+            </Button>
+          </div>
+          <Link to="/projects"><Button variant="primary" className="w-100 mt-1" onClick={onclick}>Read More</Button></Link>
         </div>
-        <Link to="/projects"><Button variant="success" className="w-100 mt-1" onClick={onclick}>Full page</Button></Link>
+
       </Card.Body>
     </Card>
   );

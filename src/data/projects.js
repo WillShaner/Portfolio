@@ -50,8 +50,8 @@ const PROJECTS = [
     link: 'https://fantastic-tapioca-49393c.netlify.app/',
     image: toDoList,
     github: 'https://github.com/WillShaner/To-Do-List',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    background: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+    description: 'This to do list was created using HTML, CSS, JQuery, and a RESTful API. This project was to showcase my skills interacting with a RESTful API. The user can add tasks, delete tasks, and mark the tasks complete. The user can filter the tasks between completed and active tasks. The user can also toggle between light and dark mode.',
+    background: 'This project was created as part of Altcademy`s frontend program. The site uses Altcademy`s API to GET, POST, DELETE, and PUT tasks. The background is a changes on every load from Unsplash.',
   },
   {
     id: 5,
@@ -60,8 +60,8 @@ const PROJECTS = [
     link: 'https://vocal-crepe-1c8ecc.netlify.app',
     image: project2,
     github: 'https://github.com/WillShaner/Airbnb_news_clone',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    background: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+    description: 'This project was created using HTML, CSS, and Bootstrap. This project was built to work on my skills with Bootstrap and building responsive sites. During this project I learned about Bootstrap`s basic features such as the expanding navbar. The project is fully responsive and some of the images change order on screen resizing.',
+    background: 'This project was a part of Altcademy`s frontend program. The goal of the project was get comfortable with building sites with Bootstrap which after doing so I was very comfortable. The project was based on the Airbnb News site(at the time)',
   },
   {
     id: 6,
@@ -70,8 +70,8 @@ const PROJECTS = [
     link: 'https://frolicking-kelpie-d4579c.netlify.app',
     image: project1,
     github: 'https://github.com/WillShaner/10-Second-Math-Game',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    background: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+    description: 'This project was built using JQuery, HTML, and CSS. The project is a game where a user has 10 seconds to answer as many questions as possible before the timer is up. If the user answers correctly then time is added to the clock and points to the score. The user has the option to choose which kind of math questions they would like to answer and the range of numbers the questions should be in. The higher the numbers the more points added per questions answered correctly. The high score of the game is stored in Altcademy`s RESTful API and is updated if the user beats the high score.',
+    background: 'The goal of this project was to work on my javascript login and problem solving. There was a lot of time spent configuring the questions so that they appear with the larger number first and divide evenly for the division problems. I made the design of the project myself.',
   },
 ];
 export default PROJECTS;

@@ -86,6 +86,7 @@ function Contact() {
           </a>
         ))}
       </Col>
+      <a href="mailto: williamshaner3@gmail.com" className="text-center mb-5">williamshaner3@gmail.com</a>
     </Row>
   );
 }

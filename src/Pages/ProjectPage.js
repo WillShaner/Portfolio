@@ -2,7 +2,6 @@ import React from 'react';
 import PROJECTS from '../data/projects';
 import ProjectOutline from '../components/ProjectOutline';
 import Footer from '../components/Footer';
-import Contact from '../components/Contact';
 import Header from '../components/Header';
 import MyWork from '../components/MyWork';
 import ProjectSlider from '../components/ProjectSlider';
@@ -14,7 +13,7 @@ function ProjectPage({ projectCount, setCounter }) {
 
       {projectCount === null
 
-        ? <MyWork setCounter={setCounter} />
+        ? <MyWork setCounter={setCounter} limit="6" button="false" />
         : (
           <div>
             {
@@ -22,11 +21,10 @@ function ProjectPage({ projectCount, setCounter }) {
                 PROJECT.id === projectCount && <ProjectOutline project={PROJECT} key={PROJECT.id} />
               ))
             }
+            <ProjectSlider currentProject={projectCount} setCounter={setCounter} />
 
           </div>
         )}
-      <ProjectSlider currentProject={projectCount} setCounter={setCounter} />
-      <Contact />
       <Footer />
     </>
 

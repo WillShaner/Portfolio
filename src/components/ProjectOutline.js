@@ -9,8 +9,8 @@ function ProjectOutline(props) {
     image, title, link, github, description, background,
   } = project;
   return (
-    <Container fluid className="d-flex flex-column flex-lg-row align-items-start justify-content-around  project">
-      <div className="d-flex flex-column px-2">
+    <Container fluid className="d-flex flex-column flex-lg-row align-items-center align-items-lg-start project">
+      <div className="d-flex flex-column justify-content-center px-2">
         <img src={image} alt="project" className="img-fluid" />
         <div>
           <h2 className="mt-4">{title}</h2>

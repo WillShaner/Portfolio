@@ -18,7 +18,7 @@ function Header() {
             <NavLink className="text-dark" to="/projects">
               Projects
             </NavLink>
-            <NavLink className="text-dark" to="/">
+            <NavLink className="text-dark" to="/contact">
               Contact
             </NavLink>
           </Nav>
