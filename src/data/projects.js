@@ -1,9 +1,9 @@
 import project1 from '../assets/mathGame.png';
-import project2 from '../assets/newsClone.png';
 import bikeShop from '../assets/bike-shop.png';
 import toDoList from '../assets/toDoList.png';
 import appleClone from '../assets/appleClone.png';
 import weather from '../assets/weatherApp.png';
+import nbaStats from '../assets/nba-stats.webp';
 
 const PROJECTS = [
   {
@@ -55,13 +55,13 @@ const PROJECTS = [
   },
   {
     id: 5,
-    title: 'Airbnb News Clone',
-    skills: ['Bootstrap', 'HTML', 'CSS'],
-    link: 'https://vocal-crepe-1c8ecc.netlify.app',
-    image: project2,
-    github: 'https://github.com/WillShaner/Airbnb_news_clone',
-    description: 'This project was created using HTML, CSS, and Bootstrap. This project was built to work on my skills with Bootstrap and building responsive sites. During this project I learned about Bootstrap`s basic features such as the expanding navbar. The project is fully responsive and some of the images change order on screen resizing.',
-    background: 'This project was a part of Altcademy`s frontend program. The goal of the project was get comfortable with building sites with Bootstrap which after doing so I was very comfortable. The project was based on the Airbnb News site(at the time)',
+    title: 'NBA stats site',
+    skills: ['Bootstrap', 'HTML', 'CSS', 'Next.js', 'SASS'],
+    link: 'https://nba-stats-site.vercel.app/',
+    image: nbaStats,
+    github: 'https://github.com/WillShaner/NBA-stats-site',
+    description: 'This project was built using Next.js along with Bootstrap. The site includes a home  page and a search page in which a user can search for any NBA player since 1979. The user can then see their season averages and can then search for season averages by a different season.',
+    background: 'This project was built to practice my skills and better learn Next.js. I learned about the file structure that Next.js uses and the benefits of Next.js for performance. The app fetches data from the balldontlie API.',
   },
   {
     id: 6,

@@ -8,7 +8,9 @@ import {
   DiGit,
   DiSass,
 } from 'react-icons/di';
-import { SiGreensock, SiFigma, SiGithub } from 'react-icons/si';
+import {
+  SiGreensock, SiFigma, SiGithub, SiNextdotjs,
+} from 'react-icons/si';
 
 const skills = [
   {
@@ -38,7 +40,7 @@ const skills = [
   {
     id: 5,
     image: <DiReact />,
-    title: 'React',
+    title: 'React.js',
     color: 'rgb(129, 223, 234)',
   },
   {
@@ -69,6 +71,12 @@ const skills = [
     id: 10,
     image: <SiGithub />,
     title: 'Github',
+    color: 'black',
+  },
+  {
+    id: 11,
+    image: <SiNextdotjs />,
+    title: 'Next.js',
     color: 'black',
   },
 
