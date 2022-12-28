@@ -22,7 +22,7 @@ function Project(props) {
       style={{ width: '18rem' }}
       className={`project-card m-3 fade-in ${inView ? 'appear' : ''}`}
     >
-      <Card.Img variant="top" src={image} />
+      <Card.Img variant="top" src={image} alt="project" />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text className="d-flex flex-column skills-list">
@@ -32,18 +32,18 @@ function Project(props) {
         </Card.Text>
         <div className="d-flex flex-column justify-content-end">
           <div className="d-flex justify-content-around">
-            <Button variant="secondary">
+            <Button id="button" variant="secondary">
               <a className="text-white" href={link}>
                 Live Site
               </a>
             </Button>
-            <Button variant="dark" style={icon}>
+            <Button id="button" variant="dark" style={icon}>
               <a className="text-white" href={github}>
                 <SiGithub />
               </a>
             </Button>
           </div>
-          <Link to="/projects"><Button variant="primary" className="w-100 mt-1" onClick={onclick}>Read More</Button></Link>
+          <Link aria-label={`Read more about ${title}`} to="/projects"><Button id="button" variant="primary" className="w-100 mt-1" onClick={onclick}>Read More</Button></Link>
         </div>
 
       </Card.Body>

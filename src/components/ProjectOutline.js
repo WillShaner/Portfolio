@@ -20,14 +20,14 @@ function ProjectOutline(props) {
 
       <div className="px-2">
         <div>
-          <h2>BACKGROUND</h2>
+          <h3>BACKGROUND</h3>
           <p>{background}</p>
         </div>
         <div className="w-100 d-flex justify-content-around my-5">
-          <Button variant="danger">
+          <Button id="button" variant="danger">
             <a href={link} className="text-white">Live Site</a>
           </Button>
-          <Button variant="primary"><a href={github}>Github</a></Button>
+          <Button id="button" variant="primary"><a href={github}>Github</a></Button>
         </div>
       </div>
     </Container>

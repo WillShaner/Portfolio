@@ -33,7 +33,7 @@ function Contact() {
       className="height-100 flex-column bg-light pt-5 justify-content-center align-items-center"
       id="contact"
     >
-      <h1 className="text-center pb-5">Connect With Me</h1>
+      <h3 className="text-center pb-5 text-uppercase">Connect With Me</h3>
       <Form
         ref={form}
         onSubmit={sendEmail}
@@ -72,7 +72,7 @@ function Contact() {
             required
           />
         </Form.Group>
-        <Button className="w-100 mt-4" type="submit" value="Send">
+        <Button id="button" className="w-100 mt-4" type="submit" value="Send">
           Send Message
         </Button>
       </Form>

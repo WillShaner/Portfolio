@@ -6,7 +6,7 @@ import Thumbnail from './Thumbnail';
 function ProjectSlider({ currentProject, setCounter }) {
   return (
     <div className="bg-light py-3">
-      <h1 className="text-center my-4">More Projects</h1>
+      <h3 className="text-center my-4">More Projects</h3>
       <div className="d-flex justify-content-center slider-container">
         {PROJECTS.map((project) => (
 

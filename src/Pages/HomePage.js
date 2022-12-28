@@ -13,7 +13,7 @@ function HomePage({ setCounter }) {
       <header>
         <img alt="background" src={Background} className="background" />
         <h1 className="title text-center">William Shaner</h1>
-        <h1 className="sub-title text-center">Frontend Developer</h1>
+        <h2 className="sub-title text-center text-uppercase">Frontend Developer</h2>
       </header>
       <div>
         <Header />

@@ -1,9 +1,9 @@
-import project1 from '../assets/mathGame.png';
-import bikeShop from '../assets/bike-shop.png';
-import toDoList from '../assets/toDoList.png';
-import appleClone from '../assets/appleClone.png';
-import weather from '../assets/weatherApp.png';
-import nbaStats from '../assets/nba-stats.webp';
+import project1 from '../assets/mathGame.webp';
+import bikeShop from '../assets/bikeShop.webp';
+import toDoList from '../assets/toDoList.webp';
+import appleClone from '../assets/appleClone.webp';
+import weather from '../assets/weatherApp.webp';
+import nbaStats from '../assets/nbaStats.webp';
 
 const PROJECTS = [
   {
