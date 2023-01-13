@@ -19,8 +19,8 @@ function Navbar() {
           Contact
         </NavLink>
       </div>
-      <BiMenuAltRight aria-controls="nav-dropdown" className="dropdown-toggle" aria-expanded={dropdownOpen} onClick={() => setDropdownOpen(!dropdownOpen)} />
-      <div className={`nav-dropdown ${dropdownOpen ? 'show' : 'close'}`}>
+      <BiMenuAltRight aria-controls="nav-dropdown" className="dropdown-toggle" onClick={() => setDropdownOpen(!dropdownOpen)} />
+      <div aria-expanded={dropdownOpen} className="nav-dropdown">
         <NavLink className="text-dark" to="/">
           Home
         </NavLink>

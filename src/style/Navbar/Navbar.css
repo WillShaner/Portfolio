@@ -37,60 +37,7 @@ nav a:hover {
 nav a[aria-current=page] {
   color: darkorange;
 }
-nav .show {
-  -webkit-animation: menu-open 250ms ease-in-out;
-          animation: menu-open 250ms ease-in-out;
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1);
-}
-nav .close {
-  -webkit-animation: menu-close 500ms ease-in-out;
-          animation: menu-close 500ms ease-in-out;
-  -webkit-transform: scaleY(0);
-          transform: scaleY(0);
-}
 
-@-webkit-keyframes menu-open {
-  0% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-  }
-  100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-  }
-}
-
-@keyframes menu-open {
-  0% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-  }
-  100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-  }
-}
-@-webkit-keyframes menu-close {
-  0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-  }
-  100% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-  }
-}
-@keyframes menu-close {
-  0% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-  }
-  100% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-  }
-}
 .nav-dropdown {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,8 +49,20 @@ nav .close {
   top: 100%;
   left: 0;
   width: 100%;
-  -webkit-transform-origin: -1000px 0;
-          transform-origin: -1000px 0;
+  -webkit-transform-origin: -100% 0%;
+          transform-origin: -100% 0%;
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+  height: 0;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+}
+.nav-dropdown[aria-expanded=true] {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
 }
 .nav-dropdown a {
   padding: 15px 1em;
