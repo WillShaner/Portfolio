@@ -1,0 +1,68 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slider {
+  padding: 1em;
+}
+.slider h3 {
+  text-align: center;
+}
+.slider-container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider-container img {
+  min-width: 100px;
+  min-height: 100px;
+  height: 100%;
+  width: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.project-thumbnail {
+  min-width: 200px;
+  height: 250px;
+  width: 20%;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+.project-thumbnail-img-container {
+  height: 50%;
+  width: 80%;
+  overflow: hidden;
+}
+
+.project-thumbnail:hover {
+  background-color: rgba(16, 15, 15, 0.095);
+}
+
+.project-thumbnail:hover img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}

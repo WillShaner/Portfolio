@@ -1,0 +1,85 @@
+.contact-img {
+  color: black;
+  font-size: clamp(2.5em, 3vw, 4em);
+  margin: 0 0.75rem;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+
+.contact-img:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  color: #2a9d8f;
+}
+
+.contact {
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 3em;
+  width: 100%;
+}
+.contact h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 2em;
+}
+.contact form {
+  min-width: 450px;
+  width: 80%;
+  max-width: 600px;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2em;
+}
+.contact form button {
+  background-color: #e76f51;
+  padding: 0.75rem 0.375rem;
+  border-color: #e76f51;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0.375rem;
+  margin-top: 2em;
+  -webkit-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+}
+.contact form button:hover {
+  background-color: rgb(203, 100, 74);
+}
+.contact .form-group label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contact .form-group label input, .contact .form-group label textarea {
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  line-height: 1.5;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  border: 1px solid #ced4da;
+  margin-top: 0.5em;
+  margin-bottom: 0.75rem;
+}
+.contact a {
+  color: black;
+}
+.contact a:hover {
+  color: #2a9d8f;
+}

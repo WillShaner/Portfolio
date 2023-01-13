@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-no-bind */
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './Pages/HomePage';
-import ProjectPage from './Pages/ProjectPage';
-import ContactPage from './Pages/ContactPage';
+import HomePage from './pages/HomePage';
+import ProjectPage from './pages/ProjectPage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
   const [projectCount, setProjectCount] = useState(null);

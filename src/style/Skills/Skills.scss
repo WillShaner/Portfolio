@@ -1,0 +1,48 @@
+.skills {
+  flex-direction: column;
+
+  h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 2em 0;
+  }
+
+  &-card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skill-icon-bg {
+    background-color: rgb(242, 243, 245);
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .skill-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .skill-card {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-size: 1.25rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+
+}

@@ -1,13 +1,13 @@
 import React from 'react';
-import '../style/ProjectSlider.css';
+import '../style/ProjectSlider/ProjectSlider.css';
 import PROJECTS from '../data/projects';
 import Thumbnail from './Thumbnail';
 
 function ProjectSlider({ currentProject, setCounter }) {
   return (
-    <div className="bg-light py-3">
+    <section className="slider">
       <h3 className="text-center my-4">More Projects</h3>
-      <div className="d-flex justify-content-center slider-container">
+      <div className="slider-container">
         {PROJECTS.map((project) => (
 
           project.id !== currentProject && (
@@ -21,7 +21,7 @@ function ProjectSlider({ currentProject, setCounter }) {
         ))}
 
       </div>
-    </div>
+    </section>
 
   );
 }

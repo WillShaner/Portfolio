@@ -1,0 +1,38 @@
+$charcoal: #264653ff;
+$persian-green: #2a9d8fff;
+$maize-crayola: #e9c46aff;
+$sandy-brown: #f4a261ff;
+$burnt-sienna: #e76f51ff;
+
+.my-work {
+  flex-direction: column;
+
+  h3 {
+    text-align: center;
+    padding: 2em 0;
+    text-transform: uppercase;
+    font-size: 2em;
+  }
+
+  &-container {
+    padding: 3em 0;
+  }
+
+  .see-more-btn {
+    color: black;
+    width: 40%;
+    max-width: 300px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    text-justify: center;
+    padding: 18px 0;
+    background-color: $charcoal;
+    transition: 150ms ease-in-out;
+
+    &:hover {
+      background-color: adjust-hue($color: #000000, $degrees: 10);
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.about {
+  color: black;
+  background-color: white;
+  flex-direction: column;
+  text-align: center;
+
+  h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 2em 0;
+  }
+
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-img {
+    object-fit: contain;
+    height: auto;
+    width: 50vw;
+    max-width: 400px;
+  }
+
+  &-holder {
+    max-height: 800px;
+  }
+
+  &-paragraph {
+    max-width: 600px;
+    line-height: clamp(2em, 4vw, 3em);
+    padding: 1em;
+  }
+}

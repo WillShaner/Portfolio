@@ -1,19 +1,19 @@
 import React from 'react';
 
-function Thumbail({ project, setCounter }) {
+function Thumbnail({ project, setCounter }) {
   const {
     image, title,
   } = project;
   return (
     <div
-      className="project-thumbnail d-flex flex-column align-items-center justify-content-center text-center pt-3"
+      className="project-thumbnail"
       onClick={setCounter}
       aria-hidden="true"
     >
-      <img src={image} alt="project" className="mb-4 img-fluid" />
-      <h3>{title}</h3>
+      <div className="project-thumbnail-img-container"><img src={image} alt="project" /></div>
+      <h4>{title}</h4>
     </div>
   );
 }
 
-export default Thumbail;
+export default Thumbnail;

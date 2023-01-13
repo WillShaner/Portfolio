@@ -8,10 +8,10 @@ function Footer() {
     marginBottom: 10,
   };
   return (
-    <>
+    <footer>
       <div style={footerBreak} />
-      <p className="m-3">William Shaner Portfolio 2022</p>
-    </>
+      <p>William Shaner Portfolio 2022</p>
+    </footer>
   );
 }
 

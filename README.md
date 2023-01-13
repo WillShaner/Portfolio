@@ -31,7 +31,6 @@ My professional portfolio using React
     - HTML5
     - CSS3
     - Javascript
-    - Bootstrap
 ### What I learned
   With this project I wokred with the useInView hook from the react-intersection-observer to animate an element when it enters and leaves the viewport.
   ```javascript

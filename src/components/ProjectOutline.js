@@ -1,36 +1,47 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import '../style/Project.css';
+import '../style/Project/Project.css';
 
 function ProjectOutline(props) {
   const { project } = props;
   const {
-    image, title, link, github, description, background,
+    image, title, link, github, description, background, skills,
   } = project;
   return (
-    <Container fluid className="d-flex flex-column flex-lg-row align-items-center align-items-lg-start project">
-      <div className="d-flex flex-column justify-content-center px-2">
+    <section className="project">
+      <div className="project-img-desc">
         <img src={image} alt="project" className="img-fluid" />
         <div>
-          <h2 className="mt-4">{title}</h2>
+          <h1>{title}</h1>
           <p>{description}</p>
         </div>
       </div>
 
-      <div className="px-2">
+      <div className="project-background">
         <div>
-          <h3>BACKGROUND</h3>
-          <p>{background}</p>
+          <div className="project-background-desc">
+            <h2>BACKGROUND</h2>
+            <p>{background}</p>
+          </div>
+          <div className="project-background-buttons">
+            <a href={link}>Live Site</a>
+            <a href={github}>Github</a>
+          </div>
         </div>
-        <div className="w-100 d-flex justify-content-around my-5">
-          <Button id="button" variant="danger">
-            <a href={link} className="text-white">Live Site</a>
-          </Button>
-          <Button id="button" variant="primary"><a href={github}>Github</a></Button>
+        <div className="project-background-skills">
+          <h2>SKILLS</h2>
+          <ul>
+            {skills.map((skill) => (
+              <li>
+                {' '}
+                -
+                {' '}
+                {skill}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
-    </Container>
+    </section>
   );
 }
 

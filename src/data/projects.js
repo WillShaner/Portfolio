@@ -13,16 +13,16 @@ const PROJECTS = [
     link: 'https://phenomenal-chimera-e6d23f.netlify.app/',
     image: bikeShop,
     github: 'https://github.com/WillShaner/bike-shop',
-    description: 'This mock bike shop was built using React and Bootstrap. The product features many components that could be seen in an actual e-commerce store. Some of these features include a cart, a shopping page with filters, a cart review page, and a checkout component created using Stripe. During this project I learned many of React`s hooks and were able to use them throughout the app. I wanted to showcase my skills with common frontend components such as the carousel and cart count badge in the navbar.',
+    description: 'This mock bike shop was built using React and Bootstrap. The product features many components that could be seen in an actual e-commerce store. Some of these features include a cart, a shopping page with filters, a cart review page, and a checkout component created using Stripe. During this project I learned many of React`s hooks including useState, useEffect, useContext, and useRef. I wanted to showcase my skills with common frontend components such as the carousel and cart count badge in the navbar.',
     background: 'I built this project to work on my React skills and simultaneously work on my e-commerce building skills. This was a chance to work on my javascript logic to create the cart component and the cart review component. I gathered the images from Unsplash and IStock',
   },
   {
     id: 2,
     title: 'Weather App',
     skills: [
-      'Bootstrap',
       'HTML',
       'CSS',
+      'SASS',
       'Javascript',
       'React',
       'REST API',
