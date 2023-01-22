@@ -15,7 +15,7 @@ function MyWork({ setCounter, limit, button }) {
           && <ProjectCard key={PROJECT.id} project={PROJECT} onclick={() => setCounter(PROJECT.id)} />
         ))}
       </div>
-      {button === true && <Link to="/projects" className="see-more-btn">See more...</Link>}
+      {button === true && <Link to="/projects" className="see-more-btn" onClick={() => setCounter(null)}>See more...</Link>}
 
     </div>
   );

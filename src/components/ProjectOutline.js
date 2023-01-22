@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../style/Project/Project.css';
 
 function ProjectOutline(props) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const { project } = props;
   const {
     image, title, link, github, description, background, skills,

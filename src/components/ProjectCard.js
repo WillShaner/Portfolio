@@ -28,10 +28,10 @@ function ProjectCard({ project, onclick }) {
           <div className={`overlay-content ${overlayShow && 'fade-in-content'}`}>
             <h4>{title}</h4>
             <div className="overlay-content-buttons">
-              <a href={link}>
+              <a href={link} target="_blank" rel="noreferrer">
                 Live Site
               </a>
-              <a href={github}>
+              <a href={github} target="_blank" rel="noreferrer">
                 <SiGithub />
               </a>
               <Link aria-label={`Read more about ${title}`} to="/projects" onClick={onclick}>Read More</Link>

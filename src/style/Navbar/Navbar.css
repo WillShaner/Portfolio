@@ -19,9 +19,7 @@ nav {
   position: sticky;
   top: 0px;
   z-index: 1000000;
-  background-color: hsla(0deg, 0%, 100%, 0.2);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background-color: #2a9d8f;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -32,16 +30,17 @@ nav a {
   transition: 150ms ease-in-out;
 }
 nav a:hover {
-  color: aqua;
+  color: chartreuse;
 }
 nav a[aria-current=page] {
-  color: darkorange;
+  color: aqua;
 }
 
 .nav-dropdown {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -49,20 +48,15 @@ nav a[aria-current=page] {
   top: 100%;
   left: 0;
   width: 100%;
-  -webkit-transform-origin: -100% 0%;
-          transform-origin: -100% 0%;
-  -webkit-transition: all 250ms ease-in;
-  transition: all 250ms ease-in;
-  height: 0;
-  -webkit-transform: scaleY(0);
-          transform: scaleY(0);
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  background-color: #2a9d8f;
+  -webkit-transform: translateY(-50%) scaleY(0);
+          transform: translateY(-50%) scaleY(0);
 }
 .nav-dropdown[aria-expanded=true] {
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1);
+  -webkit-transform: translateY(0) scaleY(1);
+          transform: translateY(0) scaleY(1);
 }
 .nav-dropdown a {
   padding: 15px 1em;

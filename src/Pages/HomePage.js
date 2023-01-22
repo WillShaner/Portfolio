@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Background from '../assets/green-bg.webp';
 import '../style/Wrapper.css';
 import MyWork from '../components/MyWork';
@@ -8,6 +8,9 @@ import Footer from '../components/Footer';
 import About from '../components/About';
 
 function HomePage({ setCounter }) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="wrapper">
       <header>

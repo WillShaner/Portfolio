@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PROJECTS from '../data/projects';
 import ProjectOutline from '../components/ProjectOutline';
 import Footer from '../components/Footer';
@@ -7,6 +7,9 @@ import MyWork from '../components/MyWork';
 import ProjectSlider from '../components/ProjectSlider';
 
 function ProjectPage({ projectCount, setCounter }) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />

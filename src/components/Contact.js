@@ -5,11 +5,9 @@ import '../style/Contact/Contact.css';
 
 function Contact() {
   const rowStyle = {
-    height: '100vh',
+    minHeight: '100vh',
   };
-
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -81,7 +79,7 @@ function Contact() {
         className="row"
       >
         {contact.map((item) => (
-          <a className="contact-img" href={item.link} key={item.id}>
+          <a className="contact-img" href={item.link} key={item.id} target="_blank" rel="noreferrer">
             {item.image}
           </a>
         ))}
