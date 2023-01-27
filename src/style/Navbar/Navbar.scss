@@ -6,7 +6,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 3rem;
+  padding: 0.5rem 3rem;
   width: 100%;
   color: black;
   position: sticky;
@@ -16,6 +16,9 @@ nav {
   flex-wrap: wrap;
 
 
+  h1 {
+    margin: 0;
+  }
 
   a {
     margin: 0 1em;

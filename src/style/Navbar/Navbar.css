@@ -13,7 +13,7 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1rem 3rem;
+  padding: 0.5rem 3rem;
   width: 100%;
   color: black;
   position: sticky;
@@ -22,6 +22,9 @@ nav {
   background-color: #2a9d8f;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+nav h1 {
+  margin: 0;
 }
 nav a {
   margin: 0 1em;

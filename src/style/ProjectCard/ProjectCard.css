@@ -18,7 +18,6 @@
 }
 
 .project-card {
-  cursor: pointer;
   height: 300px;
   width: 400px;
   border-radius: 10px;
@@ -50,60 +49,6 @@
   text-decoration: none;
 }
 
-.overlay-container {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-color: hsla(0deg, 0%, 0%, 0.2);
-  -webkit-backdrop-filter: blur(500px);
-          backdrop-filter: blur(500px);
-}
-
-.fade-in-container {
-  -webkit-animation: fade-in 150ms ease-in-out;
-          animation: fade-in 150ms ease-in-out;
-  opacity: 0.8;
-}
-
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0.8;
-  }
-}
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0.8;
-  }
-}
-.fade-in-content {
-  -webkit-animation: content-fade-in 450ms ease-in-out;
-          animation: content-fade-in 450ms ease-in-out;
-}
-
-@-webkit-keyframes content-fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes content-fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .overlay-content {
   width: 100%;
   height: 100%;
@@ -117,10 +62,18 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   position: absolute;
+  opacity: 0;
+  -webkit-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+}
+.overlay-content:hover {
+  opacity: 1;
+  background-color: hsla(0deg, 0%, 0%, 0.8);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 .overlay-content h4 {
-  color: black;
-  text-shadow: 1px 1px 3px white;
+  color: white;
   font-size: 2em;
   text-align: center;
 }
