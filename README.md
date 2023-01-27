@@ -27,10 +27,11 @@ My professional portfolio using React
 ## Development
 ### Tech Stack
   For this project I used...
-    - React.js
-    - HTML5
-    - CSS3
-    - Javascript
+   - React.js
+   - HTML5
+   - CSS3
+   - Javascript
+   - SASS
 ### What I learned
   With this project I wokred with the useInView hook from the react-intersection-observer to animate an element when it enters and leaves the viewport.
   ```javascript
