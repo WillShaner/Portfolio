@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Porfolio/static/css/main.1e62f936.css",
+    "main.js": "/Porfolio/static/js/main.ccf95dc9.js",
+    "static/media/to-do-list.png": "/Porfolio/static/media/to-do-list.41c59dabd7a7df159941.png",
+    "static/media/green-bg.webp": "/Porfolio/static/media/green-bg.df804b3b9158a12d39a9.webp",
+    "static/media/nbaStats.webp": "/Porfolio/static/media/nbaStats.83e04f273708b61893b1.webp",
+    "static/media/bikeShop.webp": "/Porfolio/static/media/bikeShop.278f56c6dc4d1daee1c1.webp",
+    "static/media/weatherApp.webp": "/Porfolio/static/media/weatherApp.b53292c465a235fa7112.webp",
+    "static/media/headshot.webp": "/Porfolio/static/media/headshot.9aa14979e9b16d9a98ef.webp",
+    "index.html": "/Porfolio/index.html",
+    "main.1e62f936.css.map": "/Porfolio/static/css/main.1e62f936.css.map",
+    "main.ccf95dc9.js.map": "/Porfolio/static/js/main.ccf95dc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e62f936.css",
+    "static/js/main.ccf95dc9.js"
+  ]
+}
