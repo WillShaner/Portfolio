@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1e62f936.css",
-    "main.js": "/Portfolio/static/js/main.52d5a40b.js",
+    "main.css": "/Portfolio/static/css/main.926702ab.css",
+    "main.js": "/Portfolio/static/js/main.f0a147e4.js",
+    "static/media/monogram-clone-1.png": "/Portfolio/static/media/monogram-clone-1.006eac4a44cacd1ac6e9.png",
     "static/media/to-do-list.png": "/Portfolio/static/media/to-do-list.41c59dabd7a7df159941.png",
+    "static/media/headshot.png": "/Portfolio/static/media/headshot.cd72258c874b65c5de86.png",
+    "static/media/monogram-clone.png": "/Portfolio/static/media/monogram-clone.a05bec151cf82e5ce0fb.png",
     "static/media/green-bg.webp": "/Portfolio/static/media/green-bg.df804b3b9158a12d39a9.webp",
+    "static/media/nba-stats-app.png": "/Portfolio/static/media/nba-stats-app.e1484e75aeb5d26b8dcb.png",
+    "static/media/bike-shop.png": "/Portfolio/static/media/bike-shop.575e25edfb7f82e31a76.png",
+    "static/media/weather-app.png": "/Portfolio/static/media/weather-app.d74827e4bd68b350209b.png",
+    "static/media/to-do.png": "/Portfolio/static/media/to-do.0676b91d8fb1c442be52.png",
     "static/media/nbaStats.webp": "/Portfolio/static/media/nbaStats.83e04f273708b61893b1.webp",
     "static/media/bikeShop.webp": "/Portfolio/static/media/bikeShop.278f56c6dc4d1daee1c1.webp",
     "static/media/weatherApp.webp": "/Portfolio/static/media/weatherApp.b53292c465a235fa7112.webp",
-    "static/media/headshot.webp": "/Portfolio/static/media/headshot.9aa14979e9b16d9a98ef.webp",
     "index.html": "/Portfolio/index.html",
-    "main.1e62f936.css.map": "/Portfolio/static/css/main.1e62f936.css.map",
-    "main.52d5a40b.js.map": "/Portfolio/static/js/main.52d5a40b.js.map"
+    "main.926702ab.css.map": "/Portfolio/static/css/main.926702ab.css.map",
+    "main.f0a147e4.js.map": "/Portfolio/static/js/main.f0a147e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e62f936.css",
-    "static/js/main.52d5a40b.js"
+    "static/css/main.926702ab.css",
+    "static/js/main.f0a147e4.js"
   ]
 }
