@@ -7,12 +7,12 @@ function ProjectOutline(props) {
   }, []);
   const { project } = props;
   const {
-    image, title, link, github, description, background, skills,
+    landscapeImage, title, link, github, description, background, skills,
   } = project;
   return (
     <section className="project">
       <div className="project-img-desc">
-        <img src={image} alt="project" className="img-fluid" />
+        <img src={landscapeImage} alt="project" className="img-fluid" />
         <div>
           <h1>{title}</h1>
           <p>{description}</p>

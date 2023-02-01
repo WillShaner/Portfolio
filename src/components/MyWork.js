@@ -10,8 +10,8 @@ function MyWork({ setCounter, limit, button }) {
     <div className="row my-work">
       <h3>My Work</h3>
       <div className="my-work-container">
-        {PROJECTS.map((PROJECT) => (
-          PROJECT.id <= limit
+        {PROJECTS.map((PROJECT, index) => (
+          index <= limit - 1
           && <ProjectCard key={PROJECT.id} project={PROJECT} onclick={() => setCounter(PROJECT.id)} />
         ))}
       </div>

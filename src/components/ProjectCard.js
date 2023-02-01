@@ -16,7 +16,7 @@ function ProjectCard({ project, onclick }) {
       style={{ width: '18rem' }}
       className={`project-card m-3 fade-in ${inView ? 'appear' : ''}`}
     >
-      <img src={image} alt="project" />
+      <div className="project-card-image-container"><img src={image} alt="project" className="project-card-image" /></div>
 
       <div className="overlay-content">
         <h4>{title}</h4>

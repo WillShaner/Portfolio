@@ -10,7 +10,7 @@ function Footer() {
   return (
     <footer>
       <div style={footerBreak} />
-      <p>William Shaner Portfolio 2022</p>
+      <p>William Shaner Portfolio 2023</p>
     </footer>
   );
 }
