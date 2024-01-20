@@ -11,7 +11,7 @@ const contact = [
   {
     id: 1,
     image: <BsLinkedin />,
-    link: 'https://www.linkedin.com/in/will-shaner-315500245/',
+    link: 'https://www.linkedin.com/in/william-shaner-315500245/',
   },
   {
     id: 2,

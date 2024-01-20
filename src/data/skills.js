@@ -7,9 +7,12 @@ import {
   DiReact,
   DiGit,
   DiSass,
+  DiMysql,
+  DiPhp,
+  DiDocker,
 } from 'react-icons/di';
 import {
-  SiGreensock, SiFigma, SiGithub, SiNextdotjs,
+  SiGithub, SiNextdotjs,
 } from 'react-icons/si';
 
 const skills = [
@@ -50,18 +53,6 @@ const skills = [
     color: 'rgb(245, 81, 30)',
   },
   {
-    id: 7,
-    image: <SiGreensock />,
-    title: 'GSAP',
-    color: 'green',
-  },
-  {
-    id: 8,
-    image: <SiFigma />,
-    title: 'Figma',
-    color: 'rgba(162,89,255,1)',
-  },
-  {
     id: 9,
     image: <DiSass />,
     title: 'SASS',
@@ -79,7 +70,24 @@ const skills = [
     title: 'Next.js',
     color: 'black',
   },
-
+  {
+    id: 12,
+    image: <DiMysql />,
+    title: 'MySQL',
+    color: 'rgb(0,117,142)',
+  },
+  {
+    id: 13,
+    image: <DiPhp />,
+    title: 'PHP',
+    color: 'rgb(79,91,145)',
+  },
+  {
+    id: 14,
+    image: <DiDocker />,
+    title: 'Docker',
+    color: 'rgb(24,100,233)',
+  },
 ];
 
 export default skills;

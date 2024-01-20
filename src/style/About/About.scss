@@ -23,6 +23,7 @@
     height: auto;
     width: 50vw;
     max-width: 400px;
+    border-radius: 50%;
   }
 
   &-holder {
@@ -30,7 +31,7 @@
   }
 
   &-paragraph {
-    max-width: 600px;
+    max-width: 800px;
     line-height: clamp(2em, 4vw, 3em);
     padding: 1em;
   }

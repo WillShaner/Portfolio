@@ -1,8 +1,6 @@
 /* eslint-disable max-len */
-// import project1 from '../assets/mathGame.webp';
 import bikeShop from '../assets/bikeShop.webp';
 import toDoList from '../assets/to-do-list.png';
-// import appleClone from '../assets/appleClone.webp';
 import weather from '../assets/weatherApp.webp';
 import nbaStats from '../assets/nbaStats.webp';
 import monogramClone from '../assets/monogram-clone-1.png';
